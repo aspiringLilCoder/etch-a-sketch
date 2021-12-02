@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch a Sketch</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    <h1>Etch a Sketch</h1>
-    <div id="content"></div>
+
+        <h1>Etch a Sketch</h1>
+        <p id="slideValue">16</p>
+        <input type="range" min="1" max="64" value="16" class="slider" id="slider">
+        <input type="color" id="color" value="#000">
+        <!-- <button id="rainbow">Rainbow</button> -->
+        <div id="content"></div>
+        <button id="clearbtn">Clear</button>
+
     
+    <script src="script.js"></script>
 </body>
 </html>
